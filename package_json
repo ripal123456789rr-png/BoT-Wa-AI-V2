@@ -1,0 +1,13 @@
+{
+  "name": "bot-wa-ai-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "openai": "^4.28.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
