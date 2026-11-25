@@ -1,0 +1,10 @@
+# This project is a Node.js WhatsApp bot (Baileys) with no frontend framework
+# and no compile step. Netlify installs dependencies from package.json with npm;
+# there is nothing else to build, so no build command is set.
+[build]
+  command = ""
+  publish = "."
+
+[build.environment]
+  # @whiskeysockets/baileys requires Node.js >= 20; 22 matches the Dockerfile.
+  NODE_VERSION = "22"
